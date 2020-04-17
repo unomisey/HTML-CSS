@@ -1,0 +1,116 @@
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+
+* html .row { height: 1%; }
+.row { display: block; }
+
+body{
+  background-size: 100%;
+  background-image: url(svet_nebo_zvezdy_fon_85555_1920x1080.jpg);
+  background-attachment: fixed;
+}
+
+.content{ 	
+ width:30%;
+ float:left;
+}
+.inner-content{ 	
+ padding-top:25%;
+ padding-left:15%;  
+ float:left;
+}
+
+.sidebar{ 
+ width:37%;
+ float:left;
+}
+
+.inner-sidebar{
+ padding-top:18%;
+ padding-bottom:5%;
+ padding-left:15%;
+ padding-right:5%;
+}
+
+.bans {
+ width:30%;
+ float:left;
+ height:88%;
+}
+
+.inner-bans img{
+ padding-bottom: 40%;
+}
+
+.inner-bans{
+ padding-left:55%; 
+ padding-top: 18%; 
+}
+
+.footer{
+ margin-bottom:3%;
+}
+.wrapper{
+ width:100%; 
+}
+.header{
+  margin-left:5%;
+  padding-top:0%; 
+  height:5%;
+  list-style:none;	
+}
+
+
+.header li{
+ width:65;
+}
+
+.header ul{
+ display:inline-table;
+ position:relative;
+}
+
+
+.header ul ul{
+	display:none;
+	list-style:none;
+	position:absolute;
+}
+
+.header ul ul li{
+	float:none;
+	position:relative;
+}
+.header ul ul ul{
+	position:absolute;
+	top:0;
+	left:38%;
+}
+
+.header li a{
+	text-decoration:none;
+	display:block;
+	color:black;
+	background:#D32215;
+}
+
+.header ul li:hover > ul{
+	display:block;
+	list-style:none;
+}
+
+@media print { 
+
+  img{ 
+    display: none; 
+
+  } 
+

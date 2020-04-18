@@ -111,6 +111,18 @@ body{
 
   img{ 
     display: none; 
-
   } 
+  .footer {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .content {
+    display: none;
+  }
 
+  .bans {
+    display: none;
+  }
+}
